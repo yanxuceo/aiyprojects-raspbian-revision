@@ -1,0 +1,25 @@
+arecord -D hw:1,0 --dump-hw-params
+Recording WAVE 'stdin' : Unsigned 8 bit, Rate 8000 Hz, Mono
+HW Params of device "hw:1,0":
+--------------------
+ACCESS:  MMAP_INTERLEAVED RW_INTERLEAVED
+FORMAT:  S16_LE S24_LE S32_LE
+SUBFORMAT:  STD
+SAMPLE_BITS: [16 32]
+FRAME_BITS: [32 64]
+CHANNELS: 2
+RATE: [8000 48000]
+PERIOD_TIME: (41 8192000]
+PERIOD_SIZE: [2 65536]
+PERIOD_BYTES: [16 524288]
+PERIODS: [2 65536]
+BUFFER_TIME: (83 16384000]
+BUFFER_SIZE: [4 131072]
+BUFFER_BYTES: [16 524288]
+TICK_TIME: ALL
+--------------------
+arecord: set_params:1343: Sample format non available
+Available formats:
+- S16_LE
+- S24_LE
+- S32_LE

@@ -118,7 +118,7 @@ LED_1 = AIYPinSpec(GpioSpec(PIN_OFFSET, 13, 'AIY_LED0', active_low=True), None)
 LED_2 = AIYPinSpec(GpioSpec(PIN_OFFSET, 14, 'AIY_LED1', active_low=True), None)
 
 BUZZER_GPIO_PIN = 22
-BUTTON_GPIO_PIN = 23
+BUTTON_GPIO_PIN = 17
 
 _NS_PER_SECOND = 1000000000
 
